@@ -1,0 +1,75 @@
+JavaScript
+
+*in your man.js file write
+
+alert("WhateverWords") 
+
+to get a pop-up screen.
+
+*To use comments on JS use two slashes. Ex: //
+
+*To use JS on your browser, double click on the screen and select "inspect element." Then look for "console" and click on it to use it.
+ 
+*to write in JS, write code in the body on sublime and write:
+<div id="el">whatever words</div>
+ <script>
+  document.getElementById("el").innerHTML='whatever words";
+ </script>
+
+*To change the words on a click, write:
+
+<div id="spike" onclick="change()">words will disappear</div>
+ <script>
+  function change() {
+  document.getElementById("spike").innerHTML = "HEllo world";
+ </script>
+}
+
+*Arrys
+
+-Arrays are used to hold a collection of data. Ex: var names = ["snoopy","charlie", "linus"];
+
+-zero in JS always goes first
+
+*Multi Arrays
+
+-Var colors = ["blue", "red"];
+ Var stuff = [ "eat", "code"];
+
+ Var about me = ["colors", "stuff"];
+
+Console.log(about me [1] [0]); to find eat
+Console.log(about me[0] [1]); to find red
+
+*Variables
+
+-In sublime write,
+
+ var x = 5;
+ var y = 10;
+ console.log(x+y);
+
+ you get total in JS
+
+- for words
+ var x = "hello";
+ var y = "there";
+ var z = x+" "+y
+
+*Testing
+
+- to get true 
+ex: 2===2 is true
+
+to get false
+ex: 2!==2 is false
+
+100>=10 is true
+
+* The else statement
+
+- if(5>10){
+   console.log("whatever");
+   } else {
+   console.log("whatever");
+   
